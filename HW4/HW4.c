@@ -62,7 +62,7 @@ int main()
 
     bool on = false;
     uint64_t next_heartbeat_us = to_us_since_boot(get_absolute_time());
-    uint32_t last_frame_time_us = 1;
+    unsigned int last_frame_time_us = 1;
 
     while (true) {
         uint64_t start_time_us = to_us_since_boot(get_absolute_time());
@@ -74,16 +74,16 @@ int main()
         }
 
         uint16_t raw = adc_read();
-        uint32_t millivolts = raw * 3300 / 4095;
-        uint32_t fps = 1000000 / last_frame_time_us;
+        unsigned int millivolts = raw * 3300u / 4095u;
+        unsigned int fps = 1000000u / last_frame_time_us;
 
         char voltage_message[32];
         char raw_message[32];
         char fps_message[32];
 
-        sprintf(voltage_message, "ADC0: %d.%03d V", millivolts / 1000, millivolts % 1000);
-        sprintf(raw_message, "raw: %4d", raw);
-        sprintf(fps_message, "fps: %lu", fps);
+        sprintf(voltage_message, "ADC0: %u.%03u V", millivolts / 1000, millivolts % 1000);
+        sprintf(raw_message, "raw: %4u", raw);
+        sprintf(fps_message, "fps: %u", fps);
 
         ssd1306_clear();
         drawString(0, 0, "ME433 HW4");
@@ -93,9 +93,13 @@ int main()
         ssd1306_update();
 
         uint64_t end_time_us = to_us_since_boot(get_absolute_time());
-        last_frame_time_us = end_time_us - start_time_us;
-        if (last_frame_time_us == 0) {
-            last_frame_time_us = 1;
+        uint64_t frame_time_us = end_time_us - start_time_us;
+        if (frame_time_us == 0) {
+            frame_time_us = 1;
         }
+        if (frame_time_us > 1000000) {
+            frame_time_us = 1000000;
+        }
+        last_frame_time_us = (unsigned int)frame_time_us;
     }
 }
