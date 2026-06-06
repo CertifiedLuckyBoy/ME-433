@@ -1,0 +1,4 @@
+pgzero
+pyserial
+pygame-ce
+numpy
