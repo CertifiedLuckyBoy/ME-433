@@ -26,7 +26,7 @@ motor spline within 1 mm of the sensor.
 
 | CAD | | |
 |---|---|---|
-| ![arm](../HW15/Screenshot%202026-06-10%20at%202.59.00%20PM.png) | ![thimble](../HW15/Screenshot%202026-06-10%20at%202.59.16%20PM.png) | ![mount](../HW15/Screenshot%202026-06-10%20at%202.59.26%20PM.png) |
+| ![arm](../HW15/cad_1.png) | ![thimble](../HW15/cad_2.png) | ![mount](../HW15/cad_3.png) |
 
 ## 3. System block diagram
 
