@@ -1,0 +1,5 @@
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:95:19:HAL_RCCEx_PeriphCLKConfig	40	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:253:6:HAL_RCCEx_GetPeriphCLKConfig	0	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:309:10:HAL_RCCEx_GetPeriphCLKFreq	8	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:520:6:HAL_RCCEx_EnableLSCO	40	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Drivers/STM32C0xx_HAL_Driver/Src/stm32c0xx_hal_rcc_ex.c:545:6:HAL_RCCEx_DisableLSCO	0	static

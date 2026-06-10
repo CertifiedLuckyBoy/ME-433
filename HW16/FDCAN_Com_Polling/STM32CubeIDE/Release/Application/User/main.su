@@ -1,0 +1,11 @@
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:103:10:readPot	16	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:116:6:writeINA219	24	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:126:9:readINA219	40	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:137:6:init_ina219	8	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:145:6:motor_off	0	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:153:6:set_motor	16	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:171:6:HAL_TIM_PeriodElapsedCallback	40	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:676:6:BSP_PB_Callback	8	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:690:6:Error_Handler	8	static,ignoring_inline_asm
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:337:6:SystemClock_Config	64	static
+/Users/karlzhang32/Documents/ME-433/HW16/FDCAN_Com_Polling/Src/main.c:223:5:main	184	static
