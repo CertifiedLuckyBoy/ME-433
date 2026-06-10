@@ -1,1 +1,3 @@
 .venv/
+.DS_Store
+HW16/FDCAN_Com_Polling/STM32CubeIDE/Release/
